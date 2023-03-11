@@ -1,0 +1,328 @@
+/* Taustaväri */
+body {
+  background-color: #f2f2f2;
+}
+
+/* Yläpalkki */
+
+nav {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #00ccff;
+}
+
+/* Tehtäväkortit */
+
+.task-card {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.task-card-header {
+  background-color: #f2f2f2;
+  border-bottom: 1px solid #ccc;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+
+.task-card-body {
+  padding: 10px;
+}
+
+.task-card-link {
+  display: block;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Painikkeet */
+
+.btn {
+  display: inline-block;
+  background-color: #00ccff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-right: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: #0099cc;
+  color: white;
+  text-decoration: none;
+}
+
+.btn-danger {
+  background-color: #ff3300;
+}
+
+.btn-danger:hover {
+  background-color: #cc2900;
+}
+
+/* Ilmoitusviestit */
+.message {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.message-success {
+  background-color: #66cc66;
+  color: white;
+}
+
+.message-error {
+  background-color: #ff6666;
+  color: white;
+}
+
+/* Lomake */
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #00ccff;
+}
+
+.form-input:invalid {
+  border-color: #ff6666;
+}
+
+.form-input:valid {
+  border-color: #66cc66;
+}
+
+.form-error {
+  color: #ff6666;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+
+/* Taulukko */
+table {
+  margin: 25px auto;
+  border-collapse: collapse;
+  border: 1px solid #eee;
+  border-bottom: 2px solid #00cccc;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+    0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+  width: 100%;
+  max-width: 1200px;
+}
+
+th,
+td {
+  color: #999;
+  border: 1px solid #eee;
+  padding: 12px 35px;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.total {
+  text-align: right;
+}
+
+tr:hover {
+  background: #f4f4f4;
+}
+td:hover {
+  color: #555;
+}
+
+thead th {
+  background: #00cccc;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.highlight {
+  background: yellow;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Linkit */
+a {
+  color: #00cccc;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0099b8;
+}
+
+/* Painikkeet */
+.btn {
+  display: inline-block;
+  background-color: #00cccc;
+  color: #fff;
+  padding: 12px 30px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #0099b8;
+}
+
+/* Sisältö */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1), 0px 10px 20px rgba(0, 0, 0, 0.05),
+    0px 20px 20px rgba(0, 0, 0, 0.05), 0px 30px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+}
+
+/* Virheilmoitukset */
+.alert {
+  padding: 20px;
+  margin-bottom: 20px;
+  color: #721c24;
+  background-color: #f8d7da;
+  border: 1px solid #f5c6cb;
+  border-radius: 5px;
+}
+
+.alert-success {
+  color: #155724;
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.alert-danger {
+  color: #721c24;
+  background-color: #f8d7da;
+  border-color: #f5c6cb;
+}
+
+/* Formit */
+.form-group {
+  margin-bottom: 20px;
+}
+/* Formit */
+
+form {
+margin: 25px auto;
+padding: 20px;
+background: #f4f7f8;
+border-radius: 8px;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+display: block;
+margin-bottom: 8px;
+font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+width: 100%;
+padding: 12px;
+border-radius: 4px;
+border: none;
+margin-bottom: 20px;
+font-size: 16px;
+}
+
+form input[type="submit"] {
+display: block;
+width: 100%;
+background: #00cccc;
+color: #fff;
+border: none;
+padding: 12px;
+margin-top: 20px;
+border-radius: 4px;
+cursor: pointer;
+font-size: 16px;
+font-weight: bold;
+transition: all 0.3s ease-in-out;
+}
+
+form input[type="submit"]:hover {
+background: #008b8b;
+}
+
+form input[type="submit"]:active {
+transform: translateY(1px);
+}
+
+/* Footer */
+
+footer {
+background: #222;
+color: #fff;
+padding: 20px 0;
+text-align: center;
+font-size: 14px;
+}
+
+footer p {
+margin: 0;
+}
+
+footer a {
+color: #fff;
+text-decoration: underline;
+}
+
+footer a:hover {
+color: #ddd;
+}
